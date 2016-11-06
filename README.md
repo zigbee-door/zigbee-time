@@ -15,18 +15,13 @@
 
 ## 日进度
 
-- 2016/10/31
-    - zigbee-http socket.io成功
-- 2016/11/01
-    - zigbee-http 添加mongodb配置
-- 2016/11/02
-    - zigbee-http 添加redis配置
-- 2016/11/03
-    - zigbee-http 添加登录功能
-- 2016/11/04
-    - zigbee-tcp  添加进程和错误日志,开启多进程,添加守护进程,添加tcp服务
-- 2016/11/05
-    - zigbee-tcp  添加tcp服务日志,模拟socket连接成功
-- 2016/11/06
-    - zigbee-tcp  socket连接状态通过redis发布成功
-    - zigbee-http 成功订阅tcp服务的socket连接状态
+| 时间          | 类型           | 进度    |
+|:------------- |:------------- |:-----  |
+| 2016/10/31    | zigbee-http   | socket.io成功 |
+| 2016/11/01    | zigbee-http   | 添加mongodb配置 |
+| 2016/11/02    | zigbee-http   | 添加redis配置 |
+| 2016/11/03    | zigbee-http   | 添加登录功能 |
+| 2016/11/04    | zigbee-tcp    | 添加进程和错误日志,开启多进程,添加守护进程,添加tcp服务 |
+| 2016/11/05    | zigbee-tcp    | 添加tcp服务日志,模拟socket连接成功 |
+| 2016/11/06    | zigbee-tcp    | socket连接状态通过redis发布成功 |
+|               | zigbee-http   | 成功订阅tcp服务的socket连接状态  |
