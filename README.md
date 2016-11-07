@@ -25,3 +25,5 @@
 | 2016/11/05    | zigbee-tcp    | 添加tcp服务日志,模拟socket连接成功 |
 | 2016/11/06    | zigbee-tcp    | socket连接状态通过redis发布成功 |
 |               | zigbee-http   | 成功订阅tcp服务的socket连接状态  |
+| 2016/11/07    | zigbee-http    | redis订阅数据成功通过socket.io发送至浏览器 |
+|               | zigbee-tcp   | 增加基站数据字段,至此,tcp -> redis -> http -> browser路线走通  |
