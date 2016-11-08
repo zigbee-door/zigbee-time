@@ -27,3 +27,5 @@
 |               | zigbee-http   | 成功订阅tcp服务的socket连接状态  |
 | 2016/11/07    | zigbee-http    | redis订阅数据成功通过socket.io发送至浏览器 |
 |               | zigbee-tcp   | 增加基站数据字段,至此,tcp -> redis -> http -> browser路线走通  |
+| 2016/11/08    | zigbee-http    | 添加图表曲线插件,引入angular |
+|               | zigbee-tcp   | 连接真实设备两台成功  |
