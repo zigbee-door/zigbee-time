@@ -29,3 +29,8 @@
 |               | zigbee-tcp   | 增加基站数据字段,至此,tcp -> redis -> http -> browser路线走通  |
 | 2016/11/08    | zigbee-http    | 添加图表曲线插件,引入angular |
 |               | zigbee-tcp   | 连接真实设备两台成功  |
+| 2016/11/09    | zigbee-http    | zigbee路由协议研究,决定使用RSSI作为路由算法的主参数 |
+| 2016/11/08    | zigbee-lock    | IAR环境的配置,zigbee嗅探器工具的使用 |
+
+
+
