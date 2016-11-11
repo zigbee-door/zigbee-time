@@ -16,21 +16,21 @@
 ## 日进度
 
 | 时间          | 类型           | 进度    |
-|:------------- |:------------- |:-----  |
-| 2016/10/31    | zigbee-http   | socket.io成功 |
-| 2016/11/01    | zigbee-http   | 添加mongodb配置 |
-| 2016/11/02    | zigbee-http   | 添加redis配置 |
-| 2016/11/03    | zigbee-http   | 添加登录功能 |
-| 2016/11/04    | zigbee-tcp    | 添加进程和错误日志,开启多进程,添加守护进程,添加tcp服务 |
-| 2016/11/05    | zigbee-tcp    | 添加tcp服务日志,模拟socket连接成功 |
-| 2016/11/06    | zigbee-tcp    | socket连接状态通过redis发布成功 |
-|               | zigbee-http   | 成功订阅tcp服务的socket连接状态  |
+|:------------- |:-------------  |:-----   |
+| 2016/10/31    | zigbee-http    | socket.io成功 |
+| 2016/11/01    | zigbee-http    | 添加mongodb配置 |
+| 2016/11/02    | zigbee-http    | 添加redis配置 |
+| 2016/11/03    | zigbee-http    | 添加登录功能 |
+| 2016/11/04    | zigbee-tcp     | 添加进程和错误日志,开启多进程,添加守护进程,添加tcp服务 |
+| 2016/11/05    | zigbee-tcp     | 添加tcp服务日志,模拟socket连接成功 |
+| 2016/11/06    | zigbee-tcp     | socket连接状态通过redis发布成功 |
+|               | zigbee-http    | 成功订阅tcp服务的socket连接状态  |
 | 2016/11/07    | zigbee-http    | redis订阅数据成功通过socket.io发送至浏览器 |
-|               | zigbee-tcp   | 增加基站数据字段,至此,tcp -> redis -> http -> browser路线走通  |
+|               | zigbee-tcp     | 增加基站数据字段,至此,tcp -> redis -> http -> browser路线走通  |
 | 2016/11/08    | zigbee-http    | 添加图表曲线插件,引入angular |
-|               | zigbee-tcp   | 连接真实设备两台成功  |
+|               | zigbee-tcp     | 连接真实设备两台成功  |
 | 2016/11/09    | zigbee-http    | zigbee路由协议研究,决定使用RSSI作为路由算法的主参数 |
 | 2016/11/10    | zigbee-lock    | IAR环境的配置,zigbee嗅探器工具的使用 |
-
+| 2016/11/11    | zigbee-lock    | sysclk,led,pcf8563等驱动层和外设层的程序编写和测试,使用PM2休眠一秒钟并唤醒,增加射频模块 |   
 
 
