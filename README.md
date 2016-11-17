@@ -31,6 +31,8 @@
 |               | zigbee-tcp     | 连接真实设备两台成功  |
 | 2016/11/09    | zigbee-http    | zigbee路由协议研究,决定使用RSSI作为路由算法的主参数 |
 | 2016/11/10    | zigbee-lock    | IAR环境的配置,zigbee嗅探器工具的使用 |
-| 2016/11/11    | zigbee-lock    | sysclk,led,pcf8563等驱动层和外设层的程序编写和测试,使用PM2休眠一秒钟并唤醒,增加射频模块 |   
+| 2016/11/11    | zigbee-lock    | sysclk,led,pcf8563等驱动层和外设层的程序编写和测试,使用PM2休眠一秒钟并唤醒,增加射频模块 |
+| 2016/11/17    | zigbee-lock    | ad检测和定时器模块和测试，他人论文的查看，研究了Leach路由算法，但是并不是zigbee协议的路由，重新考虑论文的侧重点 |   
+
 
 
