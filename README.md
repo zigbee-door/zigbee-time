@@ -75,6 +75,10 @@
 |               | zigbee-docs  	 | 增加了基站和上位机之间的通信协议文档，3.0版本，后期可能还需要修改。|
 | 2016/12/26    | zigbee-ztack   | 编写了和上位机通信的协议程序。|
 |               | zigbee-http  	 | 添加了获取门锁关联列表页面。|
+| 2016/12/27    | zigbee-ztack   | 获取关联列表 |
+|               | zigbee-http  	 | redis发布，socket通信 |
+|               | zigbee-tcp  	 | redis订阅，发送数据给基站 |
+
 
 ## 论文目录进度
 
